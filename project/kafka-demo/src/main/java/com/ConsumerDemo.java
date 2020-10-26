@@ -20,7 +20,7 @@ public class ConsumerDemo
 
         System.out.println("Hello Consumer");
         String bootStrapServers="127.0.0.1:9092";
-        String groupId="my-fourth-application";
+        String groupId="my-first-application";
         String topic="first_topic";
 
         ///create producer properties

@@ -1,2 +1,10 @@
 Kafka command:
 1.bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic first_toic
+
+ bin/kafka-consumer-groups.sh --boostrap-server localhost:9092 --group my-first-application --reset-offsets --shift-by -2 --excute --topic first_topic// for grup consumer
+
+//url for working elastic searh kafka
+https://bonsai.io/
+
+
+
